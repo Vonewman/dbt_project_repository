@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: tracks
+    description: "La table tracks"
+    columns:
+      - name: TrackId
+        tests:
+          - unique
+          - not_null
+      - name: AlbumId
+        tests:
+          - not_null
+      - name: MediaTypeId
+        tests:
+          - not_null
+      - name: GenreId
+        tests:
+          - not_null
