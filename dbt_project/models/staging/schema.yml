@@ -17,3 +17,14 @@ models:
       - name: GenreId
         tests:
           - not_null
+
+sources:
+  - name: staging
+    database: chinook 
+    schema: public 
+    tables:
+      - name: tracks
+      - name: artists
+      - name: albums
+      - name: invoices
+      - name: invoice_items

@@ -34,4 +34,3 @@ models:
   dbt_project:
     staging:
       +materialized: table
-      +schema: staging
